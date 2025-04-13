@@ -66,13 +66,13 @@ modules: [
           stopCode: "14000",
           stopName: "30th St & Church St",
           direction: "To Downtown",
-          lineNames: { J: "J Church" },
+          lineNames: { "J": "J Church" },
         },
         {
           stopCode: "14004",
           stopName: "30th St & Church St",
           direction: "To Balboa Park",
-          lineNames: { J: "J Church" },
+          lineNames: { "J": "J Church" },
         },
       ],
       agency: "SF", // Default: SF (for San Francisco Muni)
