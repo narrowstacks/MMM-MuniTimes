@@ -1,0 +1,50 @@
+.muni-times {
+  width: 300px;
+  text-align: left;
+}
+
+.muni-times table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-bottom: 10px;
+}
+
+.muni-times tr {
+  padding: 0;
+}
+
+.muni-times .line-name {
+  width: 50%;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.muni-times .arrival-time {
+  width: 50%;
+  text-align: right;
+}
+
+/* New styles for multiple stops */
+.muni-times .stop-name {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.muni-times .stop-separator {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* Line header for grouped view */
+.muni-times .line-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+}

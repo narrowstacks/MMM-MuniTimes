@@ -1,0 +1,26 @@
+{
+	"name": "MMM-MuniTimes",
+	"version": "1.0.0",
+	"description": "MagicMirror module to display SF Muni transit arrival times",
+	"main": "MMM-MuniTimes.js",
+	"author": "Ray Wojciechowski",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/raywo/MMM-MuniTimes"
+	},
+	"keywords": [
+		"magicmirror",
+		"smartmirror",
+		"transit",
+		"muni",
+		"san francisco",
+		"transportation"
+	],
+	"dependencies": {
+		"node-fetch": "^2.6.7"
+	},
+	"engines": {
+		"node": ">=12"
+	}
+}
