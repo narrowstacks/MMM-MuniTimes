@@ -108,23 +108,6 @@ Each stop in the `stops` array can have the following properties:
 | `lineNames`        | Object mapping line IDs to custom names     | No       |
 | `destinationNames` | Object mapping destinations to custom names | No       |
 
-Example stop configuration:
-
-```javascript
-{
-  stopCode: "13543",
-  stopName: "30th St & Church St",
-  direction: "Northbound",
-  lineNames: {
-    "24": "24 Divisadero"
-  },
-  destinationNames: {
-    "Outbound to La Playa": "To Ocean Beach",
-    "Inbound to Embarcadero": "To Downtown"
-  }
-}
-```
-
 ### Optional configuration options
 
 | Option           | Description                                                                 | Default                 |
